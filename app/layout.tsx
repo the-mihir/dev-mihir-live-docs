@@ -22,6 +22,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <ClerkProvider 
        appearance = {{
+        layout: {
+          unsafe_disableDevelopmentModeWarnings: true,
+        },
         baseTheme: dark,
         variables:{
           colorPrimary: "#3371ff",
