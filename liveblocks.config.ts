@@ -15,14 +15,14 @@ declare global {
     };
 
     // Custom user info set when authenticating with a secret key
-    UserMeta: {
+    serMeta: {
       id: string;
       info: {
-        id: String;
-        name: String;
-        email: String;
+        id: string;
+        name: string;
+        email: string;
         avatar: string;
-        color: String;
+        color: string;
       };
     };
 
